@@ -1,5 +1,6 @@
 # Projet G4 - Escape Game - Pyramide
-https://img.shields.io/static/v1?label=<Build>&message=<UNITY>&color=<blue>
+Dans le cadre du cercle de projet a l'institut G4 nous devons réaliser un jeux vidéo sous unity.
+
 ## Objectif
 
 ## Equipe 3
