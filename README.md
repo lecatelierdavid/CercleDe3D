@@ -1,13 +1,16 @@
-# PyramidEscape
+# Projet G4 - Escape Game - Pyramide
+https://img.shields.io/static/v1?label=<Build>&message=<UNITY>&color=<blue>
+## Objectif
 
-## Objective
-Take the pharaoh's treasure and escape!
-
-## Controls
-WASD to move. Space to jump. Mouse to look. Left-click to throw fire-potion. Right-click to interact. Left-shift to crouch and crawl.
-
-## Programmers
-Thomas Tran, Davey Jay Belliss, Joshua Heideman
+## Equipe 3
+- Victor 
+- Doriane
+- David
+- Jean-Emile
+- Bastien
+- Thomas
+- Florian
+- ...
 
 ## Models & VFX
 1. Fire Potion - Khang Nguyen
