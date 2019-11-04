@@ -1,7 +1,6 @@
 # Projet G4 - Escape Game - Pyramide
-Dans le cadre du cercle de projet a l'institut G4 nous devons réaliser un jeux vidéo sous unity.
-
 ## Objectif
+Dans le cadre du cercle de projet a l'institut G4 nous devons réaliser un jeux vidéo sous unity.
 
 ## Equipe 3
 - Victor 
