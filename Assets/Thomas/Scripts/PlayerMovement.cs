@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	// Movement control
 	private float movementSpeed = 400.0f;
-	private float jumpSpeed = 300.0f;
+	private float jumpSpeed = 1500.0f;
 	private float sphereCastDist = 1.0f;
 	private float spherecastSize = 0.4f;
     private float cooldownJump = 0.5f;
