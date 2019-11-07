@@ -22,18 +22,19 @@ public class GameManager : MonoBehaviour {
         }
         else {
             instance = this;
-		
+
             DontDestroyOnLoad(this.gameObject);
         }
     }
 
 	static public void nextLevel() {
-		
+
 		noCheckpoint = true;
-		int nextScene = (SceneManager.GetActiveScene ().buildIndex + 1);
+		// int nextScene = (SceneManager.GetActiveScene ().buildIndex + 1);
+		int nextScene = 6;
 		SceneManager.LoadScene(nextScene);
 	}
-		
+
 
 	void OnEnable() {
 		SceneManager.sceneLoaded += OnSceneLoaded; // call this function when scene loads
@@ -52,7 +53,7 @@ public class GameManager : MonoBehaviour {
 		player.GetComponent<Transform>().position = spawn;
         player.GetComponent<Transform>().rotation = spawnRotation;
 	}
-		
+
 	static public void setSpawn(Vector3 newSpawn) {
 		spawn = newSpawn;
 	}
