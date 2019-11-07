@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -30,8 +30,7 @@ public class GameManager : MonoBehaviour {
 	static public void nextLevel() {
 
 		noCheckpoint = true;
-		// int nextScene = (SceneManager.GetActiveScene ().buildIndex + 1);
-		int nextScene = 6;
+		int nextScene = (SceneManager.GetActiveScene ().buildIndex + 1);
 		SceneManager.LoadScene(nextScene);
 	}
 
